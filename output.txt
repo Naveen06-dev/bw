@@ -1,0 +1,9 @@
+﻿.system_generated
+.tempmediaStorage
+browser
+check_birthday_app_1772691419965.webp
+romantic_couple_1_1772691803113.png
+romantic_couple_2_1772691822575.png
+romantic_couple_3_1772691840857.png
+romantic_couple_4_1772691858707.png
+romantic_couple_5_1772691876496.png

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/javascript.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&family=Inter:wght@400;600&family=Outfit:wght@300;400;600&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+
+<body>
+  <div id="app">
+    <!-- Background Elements -->
+    <div class="background-container">
+      <div class="bunting-container">
+        <div class="bunting-row row-1"></div>
+        <div class="bunting-row row-2"></div>
+        <div class="bunting-row row-3"></div>
+      </div>
+      <div class="streamer-container"></div>
+      <div id="heart-particles"></div>
+      <div class="floating-wishes" id="wishes-container"></div>
+      <img src="/corner-decor.png" alt="Decoration" class="corner-decor">
+    </div>
+
+    <!-- Music Control -->
+    <div class="music-control">
+      <button id="music-btn" class="heart-btn">
+        <span class="icon">🎵</span>
+        <span class="music-status">OFF</span>
+      </button>
+      <audio id="bg-music" loop>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <!-- Main Content -->
+    <main class="content">
+      <header class="hero">
+        <h1 class="typing-text" id="typewriter"></h1>
+      </header>
+
+      <section class="cake-section">
+        <div class="cake-container" id="cake-container">
+          <div id="cake-splitting-wrapper">
+            <div class="cake-half left"></div>
+            <div class="cake-half right"></div>
+            <div class="candle-glow"></div>
+          </div>
+          <div class="message-card" id="birthday-message">
+            <h2>Happy Birthday❤️</h2>
+            <p>You are the most special person in my life. Every moment with you is magical…</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
